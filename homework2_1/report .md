@@ -60,7 +60,7 @@ protected:
     int capacity = 0;
 };
 ```
-## 程式實作&說明
+## 程式實作
 ### MinPQ(建構子)
 ```cpp
     MinHeap(int theCapacity = 10) {
@@ -263,7 +263,7 @@ if (lastE >= this->heap[child]) break;
 
 ---
 
-## 結論
+## 申論及開發報告
 
 這次作業我們成功實作了 `MinHeap` 與 `MaxHeap` 兩種堆積資料結構，並完整對應抽象類別 `MinPQ` 與 `MaxPQ` 的虛擬函數設計。我們不僅建立了基本操作如 `IsEmpty()`、`Top()`、`Push()` 和 `Pop()`，也確保其時間複雜度符合理論預期（O(log n)）。
 
